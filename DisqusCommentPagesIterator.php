@@ -1,3 +1,4 @@
+<?php
 	/**
 	 * Iterator class
 	 *
@@ -89,3 +90,4 @@
 				&& ($this->_response->comments->code == 0);
 		}
 	}
+?>
