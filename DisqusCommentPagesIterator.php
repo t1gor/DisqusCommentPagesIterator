@@ -1,4 +1,4 @@
-/**
+	/**
 	 * Iterator class
 	 *
 	 * @link http://disqus.com/api/docs/cursors/
@@ -7,12 +7,12 @@
 	 */
 	class DisqusCommentPagesIterator implements Iterator
 	{
-		protected $_apiKey = "CqK5G53O1jUN0u1yIMuWETcLqqlCe8bSZYexq118PqWFzkEVUg2FcuxRXpo4hZWT";
-		protected $_forum = "complaintslist";
-		protected $_limit = 100;
+		protected $_apiKey         = "Your public API key here";
+		protected $_forum          = "your site short code name";
+		protected $_limit          = 100;
 		protected $_getCommentsUrl = 'https://disqus.com/api/3.0/posts/list.json';
-		protected $_response = null;
-		protected $_cursor = null;
+		protected $_response       = null;
+		protected $_cursor         = null;
 
 		/**
 		 * @link http://www.php.net/manual/ru/iterator.current.php
