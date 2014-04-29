@@ -7,6 +7,13 @@ Iterate DISQUS site comments (100 items per page). The page size can be changed.
 
 * Average comments page (100 per page) load time is 3.37 seconds
 * That's it! :)
+ 
+**Links**
+
+* http://disqus.com/api/docs/cursors/
+* http://disqus.com/api/docs/errors/
+* http://www.php.net/manual/ru/class.iterator.php
+
 
 **Usage Example**
 
